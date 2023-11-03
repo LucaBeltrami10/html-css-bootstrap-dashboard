@@ -67,6 +67,13 @@ main header div div.my_info-students > *{
 
 
 @media screen and (min-width:992px){
+    /* header */
+
+    /* aside */
+    body div > aside{
+        width: 150px;
+    }
+
     /* main header */
 
     main header div div.my_info-students:last-child{
