@@ -88,6 +88,7 @@ main header div div.my_info-students > *{
 
     .my_card-big{
         width: 70%;
+        padding-right: 0.5rem;
     }
 
     .my_card-small{
