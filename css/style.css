@@ -35,6 +35,37 @@ main{
 
 /*?Header */
 
+
+
 /*?Aside */
 
 /*?Main */
+/* header */
+main header div > *,
+main header div div.my_info-students > *{
+    width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width:768px){
+    /* main header */
+    main header div > div.my_info-students{
+        width: calc((100% / 3) * 2);
+    }
+
+    main header div > div.my_add-students{
+        width: calc(100% / 3);
+    }
+
+    main header div div.my_info-students > *{
+        width: 50%;
+    }
+    
+
+}
+
+
+@media screen and (min-width:992px){
+    /* main header */
+}
