@@ -68,4 +68,12 @@ main header div div.my_info-students > *{
 
 @media screen and (min-width:992px){
     /* main header */
+
+    main header div div.my_info-students:last-child{
+        padding-left: 5rem;
+    }
+
+    main header div > div.my_add-students{
+        padding-left: 5rem;
+    }
 }
