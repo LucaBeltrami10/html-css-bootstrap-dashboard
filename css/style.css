@@ -23,6 +23,7 @@ main{
     background-color: #b9d6f3;
     /*! altezza da rimuovere */
     height: calc(100% - 50px);
+    overflow-y: scroll;
 }
 
 /* colori */
@@ -40,6 +41,11 @@ main{
 /*?Aside */
 
 /*?Main */
+.my_card-big,
+.my_card-small{
+    width: 100%;
+}
+
 /* header */
 main header div > *,
 main header div div.my_info-students > *{
@@ -79,6 +85,15 @@ main header div div.my_info-students > *{
     main{
         width: calc(100% - 150px);
     }
+
+    .my_card-big{
+        width: 70%;
+    }
+
+    .my_card-small{
+        width: 30%;
+    }
+
     /*? main header */
 
     main header div div.my_info-students:last-child{
