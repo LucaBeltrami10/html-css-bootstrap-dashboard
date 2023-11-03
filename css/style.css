@@ -3,6 +3,28 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    width: 100%;
+    /*! altezza da rimuovere */
+    height: 50px;
+    /*! colore da modificare */
+    background-color: #e5e5e5;
+}
+
+aside{
+    width: 50px;
+    background-color: #051e34;
+    /*! altezza da rimuovere */
+    height: calc(100% - 50px);
+}
+
+main{
+    width: calc(100% - 50px);
+    background-color: #f8f9fa;
+    /*! altezza da rimuovere */
+    height: calc(100% - 50px);
+}
+
 
 /* SPECIFICHE */
 
