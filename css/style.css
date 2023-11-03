@@ -74,7 +74,12 @@ main header div div.my_info-students > *{
         width: 150px;
     }
 
-    /* main header */
+
+    /* main */
+    main{
+        width: calc(100% - 150px);
+    }
+    /*? main header */
 
     main header div div.my_info-students:last-child{
         padding-left: 5rem;
