@@ -25,6 +25,11 @@ main{
     height: calc(100% - 50px);
 }
 
+/* colori */
+
+.my_bc-blue{
+    background-color: #1b72e8;
+}
 
 /* SPECIFICHE */
 
