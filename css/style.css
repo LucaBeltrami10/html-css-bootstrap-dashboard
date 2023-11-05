@@ -36,12 +36,9 @@ main{
 
 /*?Header */
 header a.navbar-brand img:first-child{
-    height: 40px;
+    height: 45px;
 }
 
-header form.my_search-bar{
-    width: 300px;
-}
 
 
 /*?Aside */
