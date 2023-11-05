@@ -25,7 +25,12 @@
                     <img class="d-none d-lg-inline-block" src="./img/logo.svg" alt="">
                   </a>
                   <!-- search bar -->
-                  <form class="my_search-bar w-100" role="search">
+                  <form class="my_search-bar d-flex w-100" role="search">
+                    <span class="input-group-append">
+                      <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                          <i class="fa fa-search"></i>
+                      </button>
+                    </span>
                     <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                   </form>
                   
@@ -87,8 +92,8 @@
             </div> -->
             <ul class="d-flex text-center align-content-start flex-wrap list-unstyled text-center text-white mt-3">
                 <li class="w-100 py-1">
-                    <a href="" class="text-white">
-                        <i class="fa-solid fa-house "></i>
+                    <a href="" class="text-white d-flex justify-content-center">
+                        <div><i class="fa-solid fa-house "></i></div>
                         <span class="d-none d-lg-inline-block ps-2">Home</span>
                     </a>
                 </li>
