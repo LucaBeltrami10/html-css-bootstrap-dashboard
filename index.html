@@ -17,16 +17,26 @@
 <body>
     <div class="d-flex flex-wrap vw-100 vh-100">
         <header>
-            <nav class="navbar navbar-expand-lg p-0">
+            <nav class="navbar navbar-expand-lg justify-content-start p-0 ">
                 <div class="container-fluid">
                   <!-- navbar logo -->
                   <a class="navbar-brand" href="#">
-                    <img src="./img/logo.svg" alt="">
+                    <img class="d-inline-block d-lg-none" src="./img/mobile-logo.png" alt="">
+                    <img class="d-none d-lg-inline-block" src="./img/logo.svg" alt="">
                   </a>
                   <!-- search bar -->
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                  <form class="my_search-bar" role="search">
+                    <input class=" form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                   </form>
+                  <!-- dropdown campanella -->
+                  <div class="dropdown">
+                    <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"> </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                  </div>
                   <!-- non visibile in md-sm -->
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">

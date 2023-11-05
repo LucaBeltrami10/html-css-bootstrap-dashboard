@@ -35,7 +35,13 @@ main{
 /* SPECIFICHE */
 
 /*?Header */
+header a.navbar-brand img:first-child{
+    height: 40px;
+}
 
+header form.my_search-bar{
+    width: 300px;
+}
 
 
 /*?Aside */
