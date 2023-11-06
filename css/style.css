@@ -5,23 +5,22 @@
 
 body div > header{
     width: 100%;
-    /*! altezza da rimuovere */
+    /*! altezza da modificare */
     height: 50px;
-    /*! colore da modificare */
     background-color: #ffffff;
 }
 
 body div > aside{
     width: 50px;
     background-color: #051e34;
-    /*! altezza da rimuovere */
+    /*! altezza da modificare */
     height: calc(100% - 50px);
 }
 
 main{
     width: calc(100% - 50px);
     background-color: #b9d6f3;
-    /*! altezza da rimuovere */
+    /*! altezza da modificare */
     height: calc(100% - 50px);
     overflow-y: scroll;
 }
@@ -38,8 +37,6 @@ main{
 header a.navbar-brand img:first-child{
     height: 45px;
 }
-
-
 
 /*?Aside */
 
