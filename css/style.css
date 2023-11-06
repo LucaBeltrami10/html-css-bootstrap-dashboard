@@ -39,6 +39,9 @@ header a.navbar-brand img:first-child{
 }
 
 /*?Aside */
+aside{
+    background-image: url(../img/sidebar-bg.png);
+}
 
 /*?Main */
 
