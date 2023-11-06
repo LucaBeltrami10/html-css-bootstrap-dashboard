@@ -48,9 +48,15 @@ main header div div.my_info-students > *{
     width: 100%;
 }
 
-header .my_header-btn{
+header .my_header-pills{
     background-color: #165bba;
-    height: 30px;
+    display: inline;
+    font-size: 0.8rem;
+}
+
+header .my-add-student-btn{
+    color: white;
+    border-color: white;
 }
 
 /* RESPONSIVE */

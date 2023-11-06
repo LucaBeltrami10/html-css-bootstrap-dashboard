@@ -15,109 +15,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <div class="d-flex flex-wrap vw-100 vh-100">
-        <header>
-            <nav class="navbar navbar-expand-lg h-100 p-0 ">
-                <div class="container-fluid d-flex h100 flex-nowrap align-item-center">
-                  <!-- navbar logo -->
-                  <a class="navbar-brand" href="#">
-                    <img class="d-inline-block d-lg-none" src="./img/mobile-logo.png" alt="">
-                    <img class="d-none d-lg-inline-block" src="./img/logo.svg" alt="">
-                  </a>
-                  <!-- search bar -->
-                  <form class="my_search-bar d-flex w-100" role="search">
-                    <span class="input-group-append">
-                      <button class="btn btn-outline-secondary border-left-0 border border-end-0 rounded-0 rounded-start" type="button">
-                          <i class="fa fa-search"></i>
-                      </button>
-                    </span>
-                    <input class="form-control rounded-0 rounded-end border-start-0 me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                  </form>
-                  
-                  <!-- non visibile in md-sm -->
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-bars"></i></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                      </li>
-                    </ul> 
-                  </div>
-                  <!-- dropdown campanella -->
-                  <div class="dropdown">
-                    <button class="btn btn-outline-warning border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"></a>list-item</li>
-                      <li><a class="dropdown-item" href="#"></a>list-item</li>
-                      <li><a class="dropdown-item" href="#"></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-
-        <aside class="d-flex flex-wrap flex-column justify-content-between">
-            <ul class="d-flex flex-wrap list-unstyled text-white mt-3">
-                <li class="w-100 py-1">
-                  <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
-                    <div><i class="fa-solid fa-house "></i></div>
-                    <span class="d-none d-lg-inline-block ps-2">Home</span>
-                  </a>
-                </li>
-                <li class="w-100 py-1">
-                  <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
-                    <div><i class="fa-solid fa-chart-simple"></i></div>
-                    <span class="d-none d-lg-inline-block ps-2">Stats</span>
-                  </a>
-                </li>
-                <li class="w-100 py-1">
-                  <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
-                    <div><i class="fa-solid fa-signal"></i></div>
-                    <span class="d-none d-lg-inline-block ps-2">Signal</span>
-                  </a>
-                </li>
-            </ul>
-            <ul class="d-flex text-center align-content-start flex-wrap list-unstyled text-center text-white">
-              <li class="w-100 py-1">
-                <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
-                  <div><i class="fa-solid fa-gear"></i></div>
-                  <span class="d-none d-lg-inline-block ps-2">Admin</span>
-                </a>
+  <div class="d-flex flex-wrap vw-100 vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg h-100 p-0 ">
+        <div class="container-fluid d-flex h100 flex-nowrap align-item-center">
+          <!-- navbar logo -->
+          <a class="navbar-brand" href="#">
+            <img class="d-inline-block d-lg-none" src="./img/mobile-logo.png" alt="">
+            <img class="d-none d-lg-inline-block" src="./img/logo.svg" alt="">
+          </a>
+          <!-- search bar -->
+          <form class="my_search-bar d-flex w-100" role="search">
+            <span class="input-group-append">
+              <button class="btn btn-outline-secondary border-left-0 border border-end-0 rounded-0 rounded-start" type="button">
+                  <i class="fa fa-search"></i>
+              </button>
+            </span>
+            <input class="form-control rounded-0 rounded-end border-start-0 me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+          </form>
+          
+          <!-- non visibile in md-sm -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-bars"></i></a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+              </li>
+            </ul> 
+          </div>
+          <!-- dropdown campanella -->
+          <div class="dropdown">
+            <button class="btn btn-outline-warning border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"></a>list-item</li>
+              <li><a class="dropdown-item" href="#"></a>list-item</li>
+              <li><a class="dropdown-item" href="#"></a></li>
             </ul>
-        </aside>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <main>
+    <aside class="d-flex flex-wrap flex-column justify-content-between">
+          <ul class="d-flex flex-wrap list-unstyled text-white mt-3">
+            <li class="w-100 py-1">
+              <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
+                <div><i class="fa-solid fa-house "></i></div>
+                <span class="d-none d-lg-inline-block ps-2">Home</span>
+              </a>
+            </li>
+            <li class="w-100 py-1">
+              <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
+                <div><i class="fa-solid fa-chart-simple"></i></div>
+                <span class="d-none d-lg-inline-block ps-2">Stats</span>
+              </a>
+            </li>
+            <li class="w-100 py-1">
+              <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
+                <div><i class="fa-solid fa-signal"></i></div>
+                <span class="d-none d-lg-inline-block ps-2">Signal</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="d-flex text-center align-content-start flex-wrap list-unstyled text-center text-white">
+            <li class="w-100 py-1">
+              <a  href="" class="text-white d-flex justify-content-center text-decoration-none">
+                <div><i class="fa-solid fa-gear"></i></div>
+                <span class="d-none d-lg-inline-block ps-2">Admin</span>
+              </a>
+            </li>
+          </ul>   
+    </aside>
+
+    <main>
             <header class="container-fluid my_bc-blue text-white pt-4">
                 <div class="d-flex flex-wrap-reverse">
                     <!-- elemento 1 -->
                     <div class="my_info-students d-flex flex-wrap">
                         <div>
-                            <div class="d-flex justify-content-start align-items-end mb-2">
-                              <h1 class="mb-0">Boolean</h1>
-                              <button type="button" class="my_header-btn btn btn-primary border-0 rounded-pill">Piano Blaze</button>
+                            <div class="mb-2">
+                              <p class="d-inline fs-3 mb-0">Boolean</p>
+                              <span class="my_header-pills badge rounded-pill">Piano Blaze</span>
                             </div>
-                            <div class="d-flex justify-content-start">
-                              <button type="button" class="my_header-btn btn btn-primary border-0 rounded-pill">3 App</button>
-                              <div><i class="fa-solid fa-angles-right"></i></div>
-                              <button type="button" class="my_header-btn btn btn-primary border-0 rounded-pill">+</button>
+                            <div>
+                              <span class="my_header-pills badge rounded-pill">3 app</span>
+                              <span><i class="fa-solid fa-angles-right"></i></span>
+                              <span class="my_header-pills badge rounded-pill">+</span>
                             </div>
-
                         </div>
                         <div class="my_online ps-lg-5">
-                            <p>Studenti online negli ultimi 30 minuti</p>
+                            <p class="pe-4">Studenti online negli ultimi 30 minuti</p>
                             <p class="fs-2">125</p>
                         </div>
                     </div>
                     <!-- elemento 2 -->
-                    <div class="my_add-students ps-lg-5">
+                    <div class="d-flex justify-content-start my_add-students ps-lg-5">
                         <p>Nuovo Studente</p>
-                    </div>
+                        <span><button type="button" class="my-add-student-btn btn"><i class="fa-solid fa-plus"></i></button></span>
                 </div>
             </header>
 
@@ -174,7 +173,7 @@
               </div>
             </section>
 
-        </main>  
-    </div>
+    </main>  
+  </div>
 </body>
 </html>
