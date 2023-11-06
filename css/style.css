@@ -41,10 +41,6 @@ header a.navbar-brand img:first-child{
 /*?Aside */
 
 /*?Main */
-.my_card-big,
-.my_card-small{
-    width: 100%;
-}
 
 /* header */
 main header div > *,
@@ -84,15 +80,6 @@ main header div div.my_info-students > *{
     /* main */
     main{
         width: calc(100% - 150px);
-    }
-
-    .my_card-big{
-        width: 70%;
-        padding-right: 1.5rem;
-    }
-
-    .my_card-small{
-        width: 30%;
     }
 
     /*? main header */
