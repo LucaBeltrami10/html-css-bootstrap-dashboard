@@ -48,6 +48,11 @@ main header div div.my_info-students > *{
     width: 100%;
 }
 
+header .my_header-btn{
+    background-color: #165bba;
+    height: 30px;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width:768px){
