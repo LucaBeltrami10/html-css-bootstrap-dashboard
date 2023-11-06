@@ -42,7 +42,11 @@ header a.navbar-brand img:first-child{
 
 /*?Main */
 
-/* header */
+/*main header */
+main header div > div,
+main header div div.my_info-students > *{
+    width: 100%;
+}
 
 header .my_header-pills{
     background-color: #165bba;
