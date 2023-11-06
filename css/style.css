@@ -25,10 +25,30 @@ main{
     overflow-y: scroll;
 }
 
+.my_header-pills{
+    font-size: 0.8rem;
+}
+
 /* colori */
 
 .my_bc-blue{
     background-color: #1b72e8;
+}
+
+.my_bc-blue-pill{
+    background-color: #165bba;
+}
+
+.my_bc-green-pill{
+    background-color: #198754;
+}
+
+.my_bc-yellow-pill{
+    background-color: #ffc20a;
+}
+
+.my_bc-red-pill{
+    background-color: #dc3545;
 }
 
 /* SPECIFICHE */
@@ -53,7 +73,6 @@ main header div div.my_info-students > *{
 
 header .my_header-pills{
     background-color: #165bba;
-    font-size: 0.8rem;
 }
 
 header .my-add-student-btn{
@@ -61,6 +80,15 @@ header .my-add-student-btn{
     border-color: white;
 }
 
+/* card */
+
+.my_rounded-container{
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: #f26551;
+    border-radius: 50px;
+}
 /* RESPONSIVE */
 
 @media screen and (min-width:768px){
