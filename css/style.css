@@ -79,7 +79,9 @@ header .my-add-student-btn{
     color: white;
     border-color: white;
 }
-
+main header .offcanvas.offcanvas-end{
+    width: 45%;
+}
 /* card */
 
 .my_rounded-container{
