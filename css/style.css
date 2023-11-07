@@ -129,7 +129,7 @@ main header .offcanvas.offcanvas-end{
     
     /* main card */
 
-    main div.row div.col-12.col-md-4 {
+    main section div.row div.col-12.col-md-4 {
         padding-left: 0;
     }
 
