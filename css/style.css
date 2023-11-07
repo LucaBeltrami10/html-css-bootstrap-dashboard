@@ -58,9 +58,19 @@ header a.navbar-brand img:first-child{
     height: 45px;
 }
 
+
+
 /*?Aside */
 aside{
     background-image: url(../img/sidebar-bg.png);
+}
+
+aside li a{
+    width: 100%;
+}
+
+aside li a:hover {
+    background-color: gray;
 }
 
 /*?Main */
@@ -118,6 +128,11 @@ main header .offcanvas.offcanvas-end{
     body div > aside{
         width: 150px;
     }
+
+    aside li a{
+        width: 110px;
+    }
+    
 
 
     /* main */
