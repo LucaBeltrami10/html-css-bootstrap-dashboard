@@ -123,7 +123,11 @@ main header .offcanvas.offcanvas-end{
         width: 50%;
     }
     
+    /* main card */
 
+    #th_nome {
+        width: 30%;
+    }
 }
 
 
@@ -154,5 +158,11 @@ main header .offcanvas.offcanvas-end{
 
     main header div > div.my_add-students{
         padding-left: 5rem;
+    }
+
+    /* main card */
+
+    #th_nome {
+        width: 40%;
     }
 }
