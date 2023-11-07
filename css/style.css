@@ -90,7 +90,7 @@ header .my-add-student-btn{
     border-color: white;
 }
 main header .offcanvas.offcanvas-end{
-    width: 45%;
+    width: 100%;
 }
 /* card */
 
@@ -121,6 +121,10 @@ main header .offcanvas.offcanvas-end{
 
     main header div div.my_info-students > *{
         width: 50%;
+    }
+
+    main header .offcanvas.offcanvas-end{
+        width: 45%;
     }
     
     /* main card */
