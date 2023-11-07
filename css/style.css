@@ -101,6 +101,7 @@ main header .offcanvas.offcanvas-end{
     background-color: #f26551;
     border-radius: 50px;
 }
+
 /* RESPONSIVE */
 
 @media screen and (min-width:768px){
