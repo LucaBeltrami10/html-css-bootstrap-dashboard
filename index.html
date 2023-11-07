@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="my_online ps-lg-5">
-                    <p class="pe-4">Studenti online negli ultimi 30 minuti</p>
+                    <p class="pe-4 m-0">Studenti online negli ultimi 30 minuti:</p>
                     <p class="fs-2">125</p>
                 </div>
             </div>
@@ -138,8 +138,11 @@
                       <label for="password" class="form-label">Password</label>
                       <input type="password" id="inputpassword" class="form-control">
                     </div><div class="col-6">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" id="inputemail" class="form-control">
+                      <label for="password" class="form-label">Email</label>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" id="inputemail" class="form-control">
+                      </div>
                     </div>
                   </div>
                   <div class="row mb-3">
@@ -155,7 +158,12 @@
                     </div>
                     <div class="col-4">
                       <label for="text" class="form-label">Stato</label>
-                      <input type="text" id="inputaddress" class="form-control">
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Scegli...</option>
+                        <option value="1">Italia</option>
+                        <option value="2">Burkina Faso</option>
+                        <option value="3">Repubblica del Botswana</option>
+                      </select>
                     </div>
                     <div class="col-4">
                       <label for="text" class="form-label">Cap</label>
@@ -165,7 +173,10 @@
                   <div class="row mb-3">
                     <div class="col-12">
                       <label for="text" class="form-label">Foto</label>
-                      <input type="text" id="inputaddress" class="form-control">
+                      <div class="input-group mb-3">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1">File</button>
+                        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      </div>
                     </div>
                   </div>
                   <div class="row">
@@ -188,18 +199,18 @@
       <div class="row">
         <div class="col-12 col-md-8">
           <!--! prima card  -->
-          <div class="card w-100 mb-3">
+          <div #="my_first-card" class="card w-100 mb-3">
             <div class="card-header">
               <p class="fs-3 fw-bold m-0">Prossime Classi</p>
             </div>
               <table class="table table-hover">
                 <thead>
                   <tr>
-                    <th scope="col" class="w-auto">Nome</th>
-                    <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
-                    <th scope="col" class="d-none d-md-table-cell">ROI</th>
-                    <th scope="col">Stato</th>
-                    <th scope="col"col>Azioni</th>
+                    <th scope="col" id="th_nome" class="w-auto">Nome</th>
+                    <th scope="col" id="th_data" class="d-none d-md-table-cell">Data inizio</th>
+                    <th scope="col" id="th_roi" class="d-none d-md-table-cell">ROI</th>
+                    <th scope="col" id="th_stato" >Stato</th>
+                    <th scope="col" id="th_azioni" >Azioni</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -212,7 +223,7 @@
                         <p class="m-0 fw-normal">Classe 75</p>
                       </div>
                     </th>
-                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                    <td class="d-none d-md-table-cell">p15 Feb 2021</td>
                     <td class="d-none d-md-table-cell">20%</td>
                     <td><span class="my_header-pills badge rounded-pill my_bc-green-pill">Done</span></td>
                     <td>

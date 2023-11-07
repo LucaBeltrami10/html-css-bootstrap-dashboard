@@ -94,12 +94,17 @@ main header .offcanvas.offcanvas-end{
 }
 /* card */
 
+/* !prima card */
 .my_rounded-container{
     color: white;
     height: 40px;
     width: 40px;
     background-color: #f26551;
     border-radius: 50px;
+}
+
+#th_nome {
+    width: 50%;
 }
 
 /* RESPONSIVE */
