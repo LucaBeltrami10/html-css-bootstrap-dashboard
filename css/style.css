@@ -11,15 +11,15 @@ body div > header{
 }
 
 body div > aside{
-    width: 50px;
+    width: 60px;
     background-color: #051e34;
     /*! altezza da modificare */
     height: calc(100% - 60px);
 }
 
 main{
-    width: calc(100% - 50px);
-    background-color: #b9d6f3;
+    width: calc(100% - 60px);
+    background-color: #f8f9fa;
     /*! altezza da modificare */
     height: calc(100% - 60px);
     overflow-y: scroll;
